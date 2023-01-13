@@ -86,6 +86,5 @@ plt.savefig(large_root + "/" + " QCafter.png")
 # what is the fraction of non-zero entries in the matrix?
 
 
-
 #option - find fraction of non-zero entries by reading cell by count data matrix in pandas
 new_frame = pd.DataFrame(adata.X.toarray(), index=adata.obs_names, columns=adata.var_names)
